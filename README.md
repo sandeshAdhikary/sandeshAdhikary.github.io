@@ -1,2 +1,2 @@
-# sandeshadhikary.gihub.io
+# sandeshAdhikary.github.io
 Personal website
