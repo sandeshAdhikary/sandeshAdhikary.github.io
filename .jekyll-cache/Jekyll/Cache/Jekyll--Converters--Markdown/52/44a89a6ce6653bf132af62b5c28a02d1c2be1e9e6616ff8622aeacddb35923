@@ -1,4 +1,4 @@
-I"�^<p>Tufte CSS provides tools to style web articles using the ideas demonstrated by Edward Tufte’s books and handouts. Tufte’s style is known for its simplicity, extensive use of sidenotes, tight integration of graphics with text, and carefully chosen typography.</p>
+I"�^<p>Tufte CSS provides tools to style web articles using the ideas demonstrated by Edward Tufte’s books and handouts. Tufte’s style is known for its simplicity, extensive use of sidenotes, tight integration of graphics with text, and carefully chosen typography.</p>
 
 <p>Tufte CSS was created by <a href="http://www.daveliepmann.com">Dave Liepmann</a> and is now an Edward Tufte project. The original idea was cribbed from <a href="https://tufte-latex.github.io/tufte-latex/">Tufte-<span class="latex">L<span class="latex-sup">a</span>T<span class="latex-sub">e</span>X</span></a> and <a href="http://rmarkdown.rstudio.com/tufte_handout_format.html">R Markdown’s Tufte Handout format</a>. We give hearty thanks to all the people who have contributed to those projects.</p>
 
@@ -105,9 +105,9 @@ This is a margin note. Notice there isn’t a number preceding the note.
 
 <p>Figures should try to use the <code class="language-plaintext highlighter-rouge">figure</code> element, which by default are constrained to the main column. Don’t wrap figures in a paragraph tag. Any label or margin note goes in a regular margin note inside the figure. For example, most of the time one should introduce a figure directly into the main flow of discussion, like so:</p>
 
-<figure><figcaption><span>From Edward Tufte, <em>Visual Display of Quantitative Information</em>, page 92.</span></figcaption><img src="/sandesh.github.io/assets/img/exports-imports.png" /></figure>
+<figure><figcaption><span>From Edward Tufte, <em>Visual Display of Quantitative Information</em>, page 92.</span></figcaption><img src="/sandeshAdhikary.github.io/assets/img/exports-imports.png" /></figure>
 
-<p><label for="mf-id-whatever" class="margin-toggle">⊕</label><input type="checkbox" id="mf-id-whatever" class="margin-toggle" /><span class="marginnote"><img class="fullwidth" src="/sandesh.github.io/assets/img/rhino.png" /><br />F.J. Cole, “The History of Albrecht Dürer’s Rhinoceros in Zoological Literature,” <em>Science, Medicine, and History: Essays on the Evolution of Scientific Thought and Medical Practice</em> (London, 1953), ed. E. Ashworth Underwood, 337-356. From page 71 of Edward Tufte’s <em>Visual Explanations</em>.</span></p>
+<p><label for="mf-id-whatever" class="margin-toggle">⊕</label><input type="checkbox" id="mf-id-whatever" class="margin-toggle" /><span class="marginnote"><img class="fullwidth" src="/sandeshAdhikary.github.io/assets/img/rhino.png" /><br />F.J. Cole, “The History of Albrecht Dürer’s Rhinoceros in Zoological Literature,” <em>Science, Medicine, and History: Essays on the Evolution of Scientific Thought and Medical Practice</em> (London, 1953), ed. E. Ashworth Underwood, 337-356. From page 71 of Edward Tufte’s <em>Visual Explanations</em>.</span></p>
 
 <p>But tight integration of graphics with text is central to Tufte’s work even when those graphics are ancillary to the main body of a text. In many of those cases, a margin figure may be most appropriate. To place figures in the margin, just wrap an image (or whatever) in a margin note inside a <code class="language-plaintext highlighter-rouge">p</code> tag, as seen to the right of this paragraph.</p>
 
@@ -115,7 +115,7 @@ This is a margin note. Notice there isn’t a number preceding the note.
 
 <p><br /></p>
 
-<figure class="fullwidth"><img src="/sandesh.github.io/assets/img/napoleons-march.png" /><figcaption></figcaption></figure>
+<figure class="fullwidth"><img src="/sandeshAdhikary.github.io/assets/img/napoleons-march.png" /><figcaption></figcaption></figure>
 
 <h2 id="code">Code</h2>
 
@@ -149,11 +149,11 @@ This is a margin note. Notice there isn’t a number preceding the note.
 
 <p>This is an ImageQuilt surveying Chinese calligraphy, placed in a full-width figure to accomodate its girth:</p>
 
-<figure class="fullwidth"><img src="/sandesh.github.io/assets/img/imagequilt-chinese-calligraphy.png" /><figcaption>Chinese calligraphy quilt.</figcaption></figure>
+<figure class="fullwidth"><img src="/sandeshAdhikary.github.io/assets/img/imagequilt-chinese-calligraphy.png" /><figcaption>Chinese calligraphy quilt.</figcaption></figure>
 
 <p>Here is an ImageQuilt of 47 animal sounds over and over, in a figure constrained to the main text region. This quilt has ragged edges, but the image itself is of course still rectangular.</p>
 
-<figure><figcaption><span></span></figcaption><img src="/sandesh.github.io/assets/img/imagequilt-animal-sounds.png" /></figure>
+<figure><figcaption><span></span></figcaption><img src="/sandeshAdhikary.github.io/assets/img/imagequilt-animal-sounds.png" /></figure>
 
 <h2 id="epilogue">Epilogue</h2>
 
