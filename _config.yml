@@ -23,4 +23,4 @@ page:
   template: _page.txt
   extension: md
 git:
-  branch: src
+  branch: gh-pages
