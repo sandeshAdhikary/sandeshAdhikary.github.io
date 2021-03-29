@@ -2,7 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba2057dc-6d2f-4a59-b66f-048667b0f82a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/articles/stein-points/2021/03/28/Riemannian-Stein-Points.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/articles/stein-points/2021/03/28/Riemannian-Stein-Points.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/articles/stein-points/2021/03/28/sp-next-manifolds.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/articles/stein-points/2021/03/28/sp-next-manifolds.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/articles/stein-points/2021/03/28/sp.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/articles/stein-points/2021/03/28/sp.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/blog/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/blog/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/kernel-herding.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/kernel-herding.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/page/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/page/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/research-journal.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/research-journal.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/tomography.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tomography.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/trace-preservation.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/trace-preservation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +47,7 @@
       <option name="presentableId" value="Default" />
       <updated>1616996715216</updated>
       <workItem from="1616996716433" duration="662000" />
+      <workItem from="1616998443161" duration="1211000" />
     </task>
     <servers />
   </component>
