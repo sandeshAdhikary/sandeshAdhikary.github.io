@@ -1,18 +1,142 @@
----
-layout: full-width
-title: Blog
-# Note that this index page uses a full-width layout!
-weight: 2
----
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <h1 class="content-listing-header sans">Articles</h1>
+  <title>Blog</title>
+  <meta name="description" content="My personal website">
+
+  <!-- Google Fonts loaded here depending on setting in _data/options.yml true loads font, blank does not-->
+  
+    <link href='//fonts.googleapis.com/css?family=Lato:400,400italic' rel='stylesheet' type='text/css'>
+  
+  
+  <!-- Load up MathJax script if needed ... specify in /_data/options.yml file-->
+  
+    <script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  
+
+  <link rel="stylesheet" type="text/css" href="/sandesh.github.io/css/tufte.css">
+  <link rel="stylesheet" type="text/css" href="/sandesh.github.io/css/latex.css">
+  <!-- <link rel="stylesheet" type="text/css" href="/sandesh.github.io/css/print.css" media="print"> -->
+
+  <link rel="canonical" href="/sandesh.github.io/blog/">
+
+  <link rel="alternate" type="application/rss+xml" title="sandesh" href="/sandesh.github.io/feed.xml" />
+</head>
+
+  <body class="full-width">
+    <!--- Header and nav template site-wide -->
+<header>
+	
+
+    <nav class="group">
+	
+	
+		
+		    
+<!--		uncomment to bring back other nav links-->
+<!--		      <a href="/sandesh.github.io/">Home</a>-->
+		    
+	    
+  	
+		
+  	
+		
+  	
+		
+		    
+<!--		uncomment to bring back other nav links-->
+<!--		      <a href="/sandesh.github.io/research-journal">Research Journal</a>-->
+		    
+	    
+  	
+		
+  	
+		
+		    
+		      <a class="active" href="/sandesh.github.io/blog/" class="active">Blog</a>
+		    
+	    
+  	
+		
+		    
+<!--		uncomment to bring back other nav links-->
+<!--		      <a href="/sandesh.github.io/page/">Tufte CSS</a>-->
+		    
+	    
+  	
+	</nav>
+</header>
+    <article>
+        <h1 class="content-listing-header sans">Articles</h1>
   <ul class="content-listing ">
-    {% for post in site.posts %}      
+          
         <li class="listing">
           <hr class="slender">
-          <a href="{{ post.url | prepend: site.baseurl }}"><h2 class="larger">{{ post.title }}</h2></a>
-          <br><span class="smaller">{{ post.date | date: "%B %-d, %Y" }}</span>  <br/>
-          <div>{{ post.excerpt }}</div> 
+          <a href="/sandesh.github.io/articles/stein-points/2021/03/28/sp.html"><h2 class="larger">Directional Stein Points</h2></a>
+          <br><span class="smaller">March 28, 2021</span>  <br/>
+          <div><p class="subtitle">Directional Stein Points</p>
+</div> 
         </li>
-    {% endfor %}
+          
+        <li class="listing">
+          <hr class="slender">
+          <a href="/sandesh.github.io/articles/stein-points/2021/03/28/sp-next-manifolds.html"><h2 class="larger">Stein Points: Narrowing Manifolds</h2></a>
+          <br><span class="smaller">March 28, 2021</span>  <br/>
+          <div><p class="subtitle">Directional Stein Points</p>
+
+</div> 
+        </li>
+          
+        <li class="listing">
+          <hr class="slender">
+          <a href="/sandesh.github.io/trace-preservation"><h2 class="larger">Trace Preservation</h2></a>
+          <br><span class="smaller">March 28, 2021</span>  <br/>
+          <div><p>Extending Stein points to Riemannian manifolds</p>
+</div> 
+        </li>
+          
+        <li class="listing">
+          <hr class="slender">
+          <a href="/sandesh.github.io/articles/stein-points/2021/03/28/Riemannian-Stein-Points.html"><h2 class="larger">Riemannian Stein Points</h2></a>
+          <br><span class="smaller">March 28, 2021</span>  <br/>
+          <div><p class="subtitle">Extending Stein points to Riemannian manifolds</p>
+</div> 
+        </li>
+          
+        <li class="listing">
+          <hr class="slender">
+          <a href="/sandesh.github.io/tomography"><h2 class="larger">Quantum Process Tomography</h2></a>
+          <br><span class="smaller">March 28, 2021</span>  <br/>
+          <div><p>Quantum Process Tomography</p>
+</div> 
+        </li>
+          
+        <li class="listing">
+          <hr class="slender">
+          <a href="/sandesh.github.io/kernel-herding"><h2 class="larger">Riemannian Kernel Herding</h2></a>
+          <br><span class="smaller">December 2, 2016</span>  <br/>
+          <div><p>Extending kernel herding to Riemannian manifolds</p>
+</div> 
+        </li>
+    
   </ul>
+    </article>
+    <span class="print-footer">Blog - Sandesh Adhikary</span>
+    <footer>
+  <hr class="slender">
+<div class="credits">
+<span>&copy; 2021 
+  
+		<a href="mailto:adhikary [at] cs [dot] washington [dot] edu">Sandesh Adhikary</a></span></br> <br>    
+    
+
+<span>Created with <a href="//jekyllrb.com">Jekyll</a>. The <a href="//github.com/sdruskat/tufte-css-jekyll">tufte-css-jekyll</a>.
+    theme from <a href="https://github.com/sdruskat/tufte-css-jekyll"> Stephan Druskat</a></span>
+</div>  
+</footer>
+  </body>
+</html>
